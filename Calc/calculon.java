@@ -8,8 +8,7 @@ public class calculon {
     public static void main(String[] args) throws IOException {
         try (Scanner scanner = new Scanner(System.in)) {
             String input = scanner.nextLine();
-
-            System.out.println(calc(input));
+             System.out.println(calc(input));
         }
     }
 
